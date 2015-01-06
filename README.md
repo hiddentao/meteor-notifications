@@ -207,3 +207,16 @@ Object with the default options for the notifications
 
 ## defaultOptionsByType
 Object with the default options for the notifications for specific types
+
+## Building
+
+_OS X users, ensure you have `wget` installed (available in `brew`)_
+
+To run the tests:
+
+```bash
+$ ./workaround.sh
+$ curl -L http://git.io/ejPSng | /bin/sh
+$ make test
+```
+
