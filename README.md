@@ -217,6 +217,7 @@ To run the tests:
 ```bash
 $ ./workaround.sh
 $ curl -L http://git.io/ejPSng | /bin/sh
-$ make test
+$ meteor test-packages ./
+(Now load up localhost:3000 in the browser to run the tests)
 ```
 
